@@ -23,16 +23,38 @@
         <a href="#" class="nav__link">Login</a>
         <a href="#" class="nav__link nav__link--primary">Sign Up</a>
         </div>
-        <button class="btn__menu" onclick="openMenu()"></button>
-    </div>
+        <button class="btn__menu" onclick="openMenu()">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
 </nav>
-<div class="menu"></div>
+<div class="menu">
+    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-lj69nl-14 fASujC">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+    </button>
+    <div class="menu__links">
+        <a href="#about" class="menu__link" onclick="closeMenu()">About</a>
+        <a href="#about" class="menu__link" onclick="closeMenu()">Blog</a>
+        <a href="#about" class="menu__link" onclick="closeMenu()">Pricing</a>
+        <a href="#about" class="menu__link" onclick="closeMenu()">Contact Us</a>
+        <a href="#about" class="menu__link" onclick="closeMenu()">Login</a>
+        <a href="#about" class="menu__link" onclick="closeMenu()">Sign Up</a>
+    </div>
+</div>
+
+
 <header>
     <div class="container">
         <div class="header__description">
             <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
-            <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
-<input type="text" class="header__email--input" placeholder="Your email address">
+            <p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+        <div class="header__email"></div>
+            <input type="text" class="header__email--input" placeholder="Your email address">
 <button class="header__email--btn">Get Started</button>
         </div>
         <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
@@ -44,7 +66,6 @@
 </div>
 </header>
 </section>
-</div>
 
 <main>
     <section id="features">
