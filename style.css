@@ -430,6 +430,7 @@ a {
     position: relative;
     width: 100%;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .plan {
@@ -441,7 +442,7 @@ a {
     background-color: rgb(225, 225, 225);
     padding-left: 2rem;
     padding-right: 2rem;
-    padding top: 0.5rem;
+    padding-top: 0.5rem;
     text-align: center;
     color: rgb (26 32, 44);
 }
@@ -451,10 +452,10 @@ a {
     color: #f7fafc; 
 }
 
-.
 
-.plan:nth-child(1) {
-.plan__stripe
+
+.plan:nth-child(1)  {
+    .plan__stripe
     position: absolute;
     top: 0;
     left: 0;
@@ -466,6 +467,31 @@ a {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
+.plan:nth-child(2) {
+.plan__stripe
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: #6415ff;
+    box-sizing: border-box;
+}
+
+.plan:nth-child(3) {
+.plan__stripe
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 .plan__top {
     display: flex;
     flex-direction: column;
@@ -475,10 +501,10 @@ a {
     line-height: 1.625;
 }
 
-
+.plan {
 .plan__name
 .plan__price
-.plan__duration {
+.plan__duration
     font-weight: bold;
     line-height: 1.625;
     font-family: "Inter", sans-serif;
@@ -507,6 +533,24 @@ a {
     padding: 2rem;
 }
 
+.plan:nth (2) {
+    .plan__middle
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(102, 126, 234);
+}
+
+.plan:nth (2) {
+    plan__target
+    color: #F7FAFC;
+    font-size: 20px;
+}
+
+.plan:nth (2) {
+    plan__feature
+    color: #F7FAFC;
+    font-size: 16px;
+}
+
 .plan__target {
     font-size: 20px;
     font-weight: 700;
@@ -516,7 +560,7 @@ a {
 }
 
 .plan__feature {
-    margin-top: 20px
+    margin-top: 20px;
     font-weight: 500;
     color: #718096;
     font-family: "Inter", sans-serif;
@@ -536,12 +580,21 @@ a {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
-.plan:nth-child(2)
-.plan__button {
+.plan:nth-child(2) {
+.plan__button 
+    color: #6415ff;
+    background-color: #f7fafc;
+}
+
+.plan:nth-child(3) {
+.plan__button 
     color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 
 .plan__button {
-        border-radius: 0.25rem;
+    border-radius: 0.25rem;
     padding: 0.75rem 2rem;
     font-weight: 700;
     transition: all 300ms ease;
@@ -562,23 +615,83 @@ a {
     letter-spacing: 1.6px;
     font-weight: 700;
     text-transform: uppercase;
+    align-items: center;
  }
 
- .section__title {
-    
+ .testimonial__description {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+ }
+
+ .testimonial__img {
+    width: 50%;
+ }
+
+ .testimonial__title {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #4A5568;
+    margin: 16px 0 0;
+ }
+
+ .testimonial__para {
+    font-size: 16x;
+    font-family: "Inter", sans-serif;
+    color: #4A5568;
+    margin: 16px 0 32px;
+ }
+
+ .testimonial__rating {
+    color: rgba(246, 173, 85);
+    margin-right: 2px;
+    margin-top: 4px;
+ }
+
+ .testimonial__name {
+    font-size: 20x;
+    font-family: "Inter", sans-serif;
+    color: #4A5568;
+    font-weight: bold;
+ }
+
+ .testimonial__role {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #7C8BA1;
+    font-weight: bold;
+ }
+
+ .testimonial__buttons {
+    display: flex;
+    align-items: center;
+ }
+
+ .testimonial__button {
+    cursor: pointer;
+    border: none;
+    background: #EDF2F7;
+    border-radius: 50px;
  }
 
  /* START */
 
+ .container {
+    padding: 80px 0;
+
+ }
+
  .start__container {
-    background-color: rgb(100, 21, 255);
+    background: rgb(100, 21, 255);
+    padding: 80px, 0;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    display: flex;
-    justify-content: center;
  }
 
  .start__row {
@@ -622,6 +735,7 @@ a {
 
 
 
+/* MEDIA DESKTOPS */
 
 @media (max-width: 1280px) {
 
@@ -636,6 +750,10 @@ a {
 
     .row {
         display: flex;
+    }
+
+    .testimonial__img {
+        width: 40%;
     }
 }
 
@@ -700,14 +818,15 @@ a {
     }
 
 }
+/* MEDIA TABLETS */
 
 @media (max-width: 768px) {
 
-.quality__description {
+.quality__description
+.testimonial__description {
     padding: 0;
     margin-top: 64px;
     text-align: center;
-    width: 100%;
 }
 
 .step {
@@ -766,6 +885,8 @@ a {
         line-height: 1.5;
     }
 }
+
+/* MEDIA PHONES */
 
 @media (max-width: 480px) {
 
