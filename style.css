@@ -814,26 +814,9 @@ header {
   width: 100%;
   justify-content: space-between;
 
-    top: 0
 
-.plan__name,
-.pla
-
-.pla
-
-
-
-.p
-
-.plan:nth-child(1) .plan__button {
-    cinear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-.
 
  /* TESTIMONIALS */
-section #testimonials {
-    
-}
  .section__tag {
     font-size: 16px;
     color: #6415ff;
