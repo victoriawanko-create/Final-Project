@@ -278,6 +278,7 @@ header .row {
 }
 .header__description {
     width: 40%;
+    align-items: center;
 }
 .header__description--para {
     margin: 32px 0;
