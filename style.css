@@ -839,6 +839,7 @@ section #testimonials {
 .testimonials__img,
 .testimonials__description {
     width: 50%;
+    padding-left: 64px;
 }
 .testimonials__description {
     display: flex;
@@ -934,6 +935,9 @@ section #testimonials {
 
  main {
     margin-bottom: 96px;
+ }
+ #start {
+    padding: 0 32px;
  }
  .start__container {
     padding: 96px 0;
@@ -1076,7 +1080,7 @@ footer {
 .footer__column--link:nth-child(2) {
   margin-top: 24px;
 }
-footer__divider {
+.footer__divider {
   width: 100%;
   height: 2px;
   margin: 64px 0;
@@ -1168,7 +1172,6 @@ header .row {
   h1 {
     font-size: 36px;
     color: #1a202c;
-    line-height: 1.25;
   }
   .header__description--para {
     font-size: 16px;
@@ -1374,8 +1377,13 @@ header .row {
   #pricing .row {
     margin-top: 40px;
   }
+  #testimonial .row {
+    align-items: center;
+  }
   .testimonials__description {
     padding-left: 0;
+    align-items: center;
+    justify-content: center;
   }
   .footer__columns {
     justify-content: flex-start;
