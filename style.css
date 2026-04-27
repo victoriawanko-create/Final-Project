@@ -523,6 +523,7 @@ header {
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
+    margin-top: 4px;
  }
 .step__description {
     display: flex;
@@ -534,12 +535,12 @@ header {
     font-weight: 600;
     font-size: 20px;
     color: #243e63;
-    line-height: 1;
+    line-height: 1.25;
 }
 .step__para {
     font-size: 14px;
     color: #718096;
-    margin-top: 12px;
+    margin-top: 8px;
     font-weight: 500;
     line-height: 2;
 }
