@@ -517,6 +517,7 @@ header {
     display: flex;
     align-items: flex-start;
     margin-top: 32px;
+    gap: 24px;
  }
  .step__number {
     color: #CBD5E0;
@@ -524,18 +525,21 @@ header {
     font-weight: 600;
     line-height: 1;
     margin-top: 4px;
+    min-width: 40px;
  }
 .step__description {
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
+    margin-left: 0px;
     max-width: 320px;
-}
+  }
+
 .step__title {
     font-weight: 600;
     font-size: 20px;
     color: #243e63;
     line-height: 1.25;
+    text-align: left;
 }
 .step__para {
     font-size: 14px;
@@ -543,6 +547,7 @@ header {
     margin-top: 8px;
     font-weight: 500;
     line-height: 2;
+    text-align: left;
 }
 .steps__grid {
     position: absolute;
