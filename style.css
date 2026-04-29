@@ -282,6 +282,11 @@ header .row {
     align-items: center;
     justify-content: space-between;
 }
+.section__title {
+  color: #1A202C;
+  font-size: 30px;
+  font-family: Inter, sans-serif;
+}
 .header__description {
     width: 40%;
     align-items: center;
@@ -352,6 +357,11 @@ header .row {
   margin-top: 16px;
   padding-right: 128px;
   opacity: 0.5;
+}
+.header__customers {
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
 }
 header {
   position: relative;
@@ -535,6 +545,7 @@ header {
     flex-direction: column;
     margin-left: 0px;
     max-width: 320px;
+    align-items: center;
   }
 
 .step__title {
@@ -551,6 +562,8 @@ header {
     font-weight: 500;
     line-height: 2;
     text-align: left;
+    align-items: center;
+    text-align: center;
 }
 .steps__grid {
     position: absolute;
@@ -886,6 +899,7 @@ section #testimonials {
  .testimonial__bottom {
     display: flex;
     align-items: center;
+    justify-content: space-between;
  }
  .testimonial__profile {
     display: flex;
@@ -907,6 +921,7 @@ section #testimonials {
  .testimonial__buttons {
     display: flex;
     align-items: center;
+    gap: 12px;
  }
 .testimonial__button svg {
     width: 16px;
