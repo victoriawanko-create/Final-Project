@@ -539,11 +539,7 @@ header {
     padding: 32px 0;
     padding-left: 64px;
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-    max-width: 320px;
-    align-items: center;
+    
  }
  .step {
     display: flex;
@@ -560,6 +556,9 @@ header {
     min-width: 40px;
  }
 .step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
     max-width: 320px;
     align-items: center;
   }
