@@ -70,7 +70,7 @@ p {
     text-align: center;
 }
 
-#features .section__title
+#features .section__title,
 #quality .section__title {
   color: #243e63;
 }
