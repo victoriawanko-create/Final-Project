@@ -474,7 +474,7 @@ header {
     align-items: center;
 }
 #quality .section__title,
-#values .section__title, {
+#values .section__title {
     line-height: 1.25;
     font-size: 48px;
     color: #243e63;
@@ -502,7 +502,7 @@ header {
     margin-right: 64px;
 }
 .quality__description,
-.quality__img--wrapper{
+.quality__img--wrapper {
     width: 50%;
 }
 .quality__img--wrapper {
@@ -1457,7 +1457,8 @@ header .row {
     justify-content: center;
   }
    #quality .section__title,
-   #steps .section__title, {
+   #steps .section__title,
+   #testimonials .section__title {
     font-size: 32px;
   }
   .footer__columns {
