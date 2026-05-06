@@ -1392,6 +1392,9 @@ header .row {
     margin-top: 64px;
     text-align: center;
   }
+  #quality .section__title {
+    font-size: 32px;
+  }
   .testimonials__description {
     padding-left: 0;
     align-items: center;
