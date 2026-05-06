@@ -368,6 +368,7 @@ header .row {
 .header__customer--img {
     margin-top: 16px;
     opacity: 0.5;
+    max-width: 350px;
 }
 header {
   position: relative;
@@ -939,6 +940,7 @@ section #testimonials {
  .testimonial__profile {
     display: flex;
     align-items: center;
+    gap: 16px;
  }
  .testimonial__details {
     margin-left:24px;
